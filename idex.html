@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <img class="firs" src="princess%201.jpg">
+    <div class="grid">
+        <h1>Grid Gallery</h1>
+        <span>
+            <div class="pricess">
+            <img id="one" src="princess%202.png">
+            <img id="wo" src="princess%203.jpg">
+            <img id="hree" src="princess%204.jpg">
+            <img id="four" src="princess%205.jpg">
+            <img id="five" src="pricess%206.jpg">
+            <img id="six" src="pricess%207.jpg">
+            </div>
+        </span>
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+
+        <h2>Sliding Gallery</h2>
+        <div id="myCarousel" class="carousel slide"></div>
+
+        <div class="carousel-inner">
+            <div class="item-active">
+                <center>
+                    <img class="img-responsive" src="pricess%207.jpg">
+                    <div class="carousel-content">
+                        <p>Elsa</p>
+                    </div>
+                </center>
+            </div>
+            <div class="carousel-inner">
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="princess%203.jpg">
+                        <div class="carousel-content">
+                            <p>Sofia</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="carousel-inner">
+                    <div class="item-active">
+                        <center>
+                            <img class="img-responsive" src="princess%202.png">
+                            <div class="carousel-content">
+                                <p>Jasmine</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="item-active">
+                            <center>
+                                <img class="img-responsive" src="princess%204.jpg">
+                                <div class="carousel-caption">
+                                    <p>Cinderella</p>
+                                </div>
+                            </center>
+                        </div>
+                        <a class="left-carousel-control" href="myCarousel" dataslide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                         <a class="right-carousel-control" href="myCarousel" dataslide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

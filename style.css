@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 350px;
+}
+#myCarousel{
+    background-color: pink;
+}
+.pricess{
+    display: inline;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px
+}
+.carousel-inner{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
